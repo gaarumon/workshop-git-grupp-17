@@ -13,3 +13,4 @@ public class App{
         if("4".equals(choice) && b != 0) System.out.println(Calculator.div(a, b));
     }
 }
+public Statc void main(String[] args) { start(); }
