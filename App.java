@@ -1,3 +1,4 @@
+// Simple console calculator 
 public class App{
     static void start(){
         // Entry point logic
@@ -15,3 +16,4 @@ public class App{
         if("4".equals(choice) && b != 0) System.out.println(Calculator.div(a, b));
     }
 }
+public Statc void main(String[] args) { start(); }
