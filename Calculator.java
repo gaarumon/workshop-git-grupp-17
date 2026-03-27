@@ -11,6 +11,13 @@ public class Calculator {
     public static double sub(double a, double b){
         return a - b; 
     }
+
+    /**
+     * Returns the quotient of a and b.
+     * @param a
+     * @param b
+     * @return
+     */
     static double div(double a, double b){
         return a/b;
     }
