@@ -3,6 +3,8 @@ public class App{
         System.out.println("1) Add\n2) Subtract\n0) Multiply\n4) Divide\n0) Exit");
         System.out.print("Your choice: ");
         String choice = new java.util.Scanner(System.in).nextLine();
+        if ("4".equals(choice) && b == 0) System.out.println("Error: division by zero");
+        if("4".equals(choice) && b != 0) System.out.println(Calculator.div(a, b));
         double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
         double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
         if ("1.equals(choice")) System.out.println(Calculator.add(a, b));
