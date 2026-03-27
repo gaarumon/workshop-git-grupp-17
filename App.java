@@ -1,5 +1,5 @@
 public class App{
-    static void run(){
+    static void start(){
         System.out.println("1) Add\n2) Subtract\n0) Multiply\n4) Divide\n0) Exit");
         System.out.print("Your choice: ");
         String choice = new java.util.Scanner(System.in).nextLine();
